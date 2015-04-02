@@ -1,3 +1,4 @@
+#Adding Applications PPA's TESTANDO ESSE CARAI
 echo Adding Aplications PPAs ...
 sudo sh -c ‘echo “deb http://archive.canonical.com/ quantal partner” >> /etc/apt/sources.list’
 sudo add-apt-repository ppa:atareao/atareao -y
