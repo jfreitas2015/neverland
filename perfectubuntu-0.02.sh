@@ -10,7 +10,7 @@ sudo add-apt-repository ppa:audacity-team/daily -y
 sudo add-apt-repository ppa:webupd8team/y-ppa-manager -y
 
 #Updating and upgrading packages
-sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get update && sudo apt-get dist-upgrade -y
 
 #Deja-dup backup tool
 sudo apt-get install deja-dup -y
