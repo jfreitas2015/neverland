@@ -1,4 +1,4 @@
-#Adding Applications PPAs
+#Adding Applications PPA
 sudo sh -c ‘echo “deb http://archive.canonical.com/ quantal partner” >> /etc/apt/sources.list’
 sudo add-apt-repository ppa:atareao/atareao -y
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
